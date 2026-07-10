@@ -1,0 +1,36 @@
+{
+  "name": "stock-allocation-rules-skill",
+  "version": "1.0.0",
+  "description": "Distribute limited inventory stock levels across priority retail sales channels and top-tier customers.",
+  "author": "alphaparkinc",
+  "category": "logistics",
+  "tags": [
+    "inventory",
+    "allocation",
+    "supply-chain",
+    "logistics",
+    "retail"
+  ],
+  "inputs": {
+    "available_units": {
+      "type": "integer",
+      "description": "Total physical items in warehouse."
+    },
+    "channels_demand": {
+      "type": "object",
+      "description": "Requested units: {shopify: int, amazon: int, wholesale: int}."
+    }
+  },
+  "outputs": {
+    "allocation_results": {
+      "type": "object",
+      "description": "Assigned stocks: {shopify: int, amazon: int, wholesale: int}."
+    },
+    "unfulfilled_demand": {
+      "type": "integer",
+      "description": "Sum of remaining unfulfilled channel requests."
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
