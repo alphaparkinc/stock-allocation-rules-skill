@@ -1,8 +1,8 @@
 {
   "name": "stock-allocation-rules-skill",
   "version": "1.0.0",
-  "description": "Distribute limited inventory stock levels across priority retail sales channels and top-tier customers.",
-  "author": "alphaparkinc",
+  "description": "GenPark AI Agent Skill - Distribute limited inventory stock levels across priority retail sales channels and top-tier customers.",
+  "author": "genpark",
   "category": "logistics",
   "tags": [
     "inventory",
