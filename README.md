@@ -1,4 +1,4 @@
-# stock-allocation-rules-skill
+# genpark-stock-allocation-rules-skill
 
 > **GenPark AI Agent Skill** -- Channel-prioritized stock allocation manager.
 
